@@ -22,43 +22,6 @@ The lab is stored on an external drive so it can be run on different machines.
 - **Group Policy:** Created and applied Group Policy Objects to the domain
 - **Automation:** Wrote a PowerShell script to create users in bulk instead of adding them one by one
 
-## Repository Contents
-
-```
-.
-├── README.md
-├── scripts/        # PowerShell scripts (e.g. user creation)
-└── screenshots/    # Screenshots of the lab configuration
-```
-
-## Screenshots
-
-<!-- Replace these with your own screenshots once uploaded to the screenshots/ folder -->
-
-| Description | Screenshot |
-|---|---|
-| Active Directory Users and Computers (OU structure) | `screenshots/ou-structure.png` |
-| Group Policy Management | `screenshots/group-policy.png` |
-| Windows 10 client joined to the domain | `screenshots/domain-join.png` |
-| PowerShell user creation script running | `screenshots/powershell-script.png` |
-
-To display an image in this README, use:
-
-```
-![OU structure](screenshots/ou-structure.png)
-```
-
-## Running the User Creation Script
-
-1. Open PowerShell as Administrator on the domain controller
-2. Navigate to the `scripts/` folder
-3. Run the script:
-
-```powershell
-.\New-BulkUsers.ps1
-```
-
-> Replace `New-BulkUsers.ps1` with the actual filename of your script. The script does not contain any real credentials or personal data.
 
 ## Skills Demonstrated
 
